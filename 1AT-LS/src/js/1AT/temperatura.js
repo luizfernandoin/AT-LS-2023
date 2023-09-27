@@ -1,6 +1,6 @@
-const celsius = document.getElementById('base');
-const outputFa = document.getElementById('value-fa');
-const outputKe = document.getElementById('value-ke');
+const celsius = document.getElementById('celsius');
+const outputFa = document.getElementById('temp-fahrenheit');
+const outputKe = document.getElementById('temp-kelvin');
 
 
 
@@ -15,7 +15,7 @@ function converterKelvin(tempCelsius) {
     return tempKelvin;
 }
 
-document.getElementById('base').addEventListener('keyup', function(){
+document.getElementById('celsius').addEventListener('keyup', function(){
     const tempCelsius = parseFloat(celsius.value);
 
     if (!isNaN(tempCelsius) && celsius.value.trim() !== "") {

@@ -16,8 +16,8 @@ function calcularMelhorCombustivel(priceGas, priceAlcool) {
 
 
 document.querySelector(".btn").addEventListener('click', function(){
-    const baseInput = document.getElementById('base');
-    const expoenteInput = document.getElementById('expoente');
+    const baseInput = document.getElementById('gasolina');
+    const expoenteInput = document.getElementById('alcool');
     const base = parseFloat(baseInput.value);
     const expoente = parseInt(expoenteInput.value);
 

@@ -1,12 +1,7 @@
-document.querySelector('.btn').addEventListener('click', function() {
-    const resultado = simularRolamentoDados(1000000);
-    exibirResultado(resultado);
-});
-
-function simularRolamentoDados(quantidadeDeSimulacoes) {
+function simularRolamentoDados(totSimulacoes) {
     const contagem = {};
 
-    for (let i = 0; i < quantidadeDeSimulacoes; i++) {
+    for (let i = 0; i < totSimulacoes; i++) {
         const resultadoDoDado = Math.floor(Math.random() * 6) + 1;
         if (contagem[resultadoDoDado] === undefined) {
             contagem[resultadoDoDado] = 1;
@@ -33,3 +28,8 @@ function exibirResultado(resultado) {
         }
     }
 }
+
+document.querySelector('.btn').addEventListener('click', function() {
+    const resultado = simularRolamentoDados(1000000);
+    exibirResultado(resultado);
+});
