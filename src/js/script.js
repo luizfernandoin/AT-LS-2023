@@ -50,6 +50,24 @@ const listaDeExercicios = {
             link: "templates/2AT/employees.html",
         },
     ],
+    lista03: [
+        "Lista de exercícios 03 - Classes e Objetos",
+        {
+            titulo: "Lista de Eventos",
+            descricao: "Insira seus eventos e respectivas data e hora, ele será exibido em ordem cronológica na tela.",
+            link: "#",
+        },
+        {
+            titulo: "Banco de Clientes",
+            descricao: "Adicione e liste clientes de um banco, onde o mesmo terá nome, saldo e documento e conseguirá realizar saques e depósitos.",
+            link: "#",
+        },
+        {
+            titulo: "Controle de Transações",
+            descricao: "Projeto para realizar transações com descrições e valor realizando verificações no saldo da conta.",
+            link: "#",
+        },
+    ],
 };
 
 
