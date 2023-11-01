@@ -55,17 +55,17 @@ const listaDeExercicios = {
         {
             titulo: "Lista de Eventos",
             descricao: "Insira seus eventos e respectivas data e hora, ele será exibido em ordem cronológica na tela.",
-            link: "#",
+            link: "templates/3AT/event.html",
         },
         {
             titulo: "Banco de Clientes",
             descricao: "Adicione e liste clientes de um banco, onde o mesmo terá nome, saldo e documento e conseguirá realizar saques e depósitos.",
-            link: "#",
+            link: "templates/3AT/banco_clientes.html",
         },
         {
             titulo: "Controle de Transações",
             descricao: "Projeto para realizar transações com descrições e valor realizando verificações no saldo da conta.",
-            link: "#",
+            link: "templates/3AT/transacoes.html",
         },
     ],
 };
