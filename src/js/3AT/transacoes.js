@@ -16,7 +16,7 @@ class Transacao {
 
     calcularSaldo() {
         const saldo = transacoes.reduce((total, transacao) => total + transacao.valor, 0);
-        saldoTotal.textContent = saldo.toFixed(2);
+        saldoTotal.textContent = saldo.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
     }
 }
 
