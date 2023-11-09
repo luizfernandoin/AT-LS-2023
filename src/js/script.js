@@ -68,6 +68,14 @@ const listaDeExercicios = {
             link: "templates/3AT/transacoes.html",
         },
     ],
+    lista04: [
+        "Lista de exercícios 04 - Modularidade/Armazenamento",
+        {
+            titulo: "Supermercado",
+            descricao: "Página para construir lista de compras do supermercado, onde pode-se inserir itens, remover e marcar quando comprado.",
+            link: "templates/4AT/supermercado.html",
+        },
+    ],
 };
 
 
