@@ -59,7 +59,7 @@ function setCampos() {
     priceInput.value = '';
 }
 
-document.querySelector('.btn').addEventListener('click', () => {
+function verificaEntrada() {
     const nome = itemInput.value;
     const preco = parseFloat(priceInput.value);
 
@@ -74,4 +74,16 @@ document.querySelector('.btn').addEventListener('click', () => {
         setCampos();
         atualizarLista();
     }
+}
+
+document.querySelector('.btn').addEventListener('click', () => {
+    verificaEntrada();
+});
+
+itemInput.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") verificaEntrada();
+});
+
+priceInput.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") verificaEntrada();
 });
